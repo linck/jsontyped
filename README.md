@@ -24,7 +24,7 @@ How to use
            databaseName: String;
        }
 
-**3. Load you json file and use:**
+**3. Load your json file and use:**
 
     var config: MyConfig = JsonLoader.loadFile<MyConfig>(".", "myconfig.json");
     
