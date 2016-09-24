@@ -7,6 +7,7 @@ How to use
 **Simple!**
 
 **1. Create your json file:**
+
 *myconfig.json*
 
     {
