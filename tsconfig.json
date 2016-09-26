@@ -10,6 +10,7 @@
     "removeComments": false,
     "noImplicitAny": false,
     "watch": true,
+    "outDir": "dist",
     "lib": [
       "es6"
     ]
