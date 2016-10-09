@@ -20,11 +20,13 @@ How to use
    
 
     export interface MyConfig {
-           port: number;
-           databaseName: String;
-       }
+        port: number;
+        databaseName: String;
+    }
 
 **3. Load your json file and use:**
+
+    import { JsonLoader } from "jsontyped";
 
     var config: MyConfig = JsonLoader.loadFile<MyConfig>(".", "myconfig.json");
     
