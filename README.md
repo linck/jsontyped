@@ -28,7 +28,7 @@ How to use
 
     import { JsonLoader } from "jsontyped";
 
-    var config: MyConfig = JsonLoader.loadFile<MyConfig>(".", "myconfig.json");
+    var config: MyConfig = JsonLoader.loadFile<MyConfig>("./myconfig.json");
     
 	connect(config.port, config.databaseName);
 

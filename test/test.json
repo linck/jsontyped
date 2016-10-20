@@ -1,0 +1,8 @@
+{
+    "msg": "hello",
+    "msg2": "hello2",
+    "messages": {
+        "hello": "msg1",
+        "hello2": "msg2"
+    }
+}

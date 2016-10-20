@@ -1,1 +1,1 @@
-export * from './JsonLoader'
+export { JsonLoader } from './JsonLoader';

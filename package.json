@@ -1,11 +1,11 @@
 {
   "name": "jsontyped",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "Load Json file in Typescript object",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && mocha dist/test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
   "author": "Humberto Machado",
   "license": "MIT",
   "dependencies": {
+    "@types/mocha": "^2.2.32",
     "@types/node": "^6.0.41",
+    "mocha": "^3.1.2",
+    "mocha-typescript": "^1.0.10",
     "typescript": "^2.0.3"
   }
 }
