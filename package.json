@@ -18,10 +18,12 @@
   "author": "Humberto Machado",
   "license": "MIT",
   "dependencies": {
-    "@types/mocha": "^2.2.32",
     "@types/node": "^6.0.41",
-    "mocha": "^3.1.2",
-    "mocha-typescript": "^1.0.10",
     "typescript": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "mocha": "^3.1.2",
+    "mocha-typescript": "^1.0.10"
   }
 }
