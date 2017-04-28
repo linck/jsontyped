@@ -1,6 +1,6 @@
 # Jsontyped
 
-https://nodei.co/npm/peerflix.png?downloads=true
+[![NPM](https://nodei.co/npm/jsontyped.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/protontype/)
 
 Load Json file in Typescript Object
 
