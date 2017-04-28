@@ -1,9 +1,11 @@
-Jsontyped
---------
+# Jsontyped
+
+https://nodei.co/npm/peerflix.png?downloads=true
+
 Load Json file in Typescript Object
 
-How to use
----------
+## How to use
+
 **Simple!**
 
 **1. Create your json file:**
